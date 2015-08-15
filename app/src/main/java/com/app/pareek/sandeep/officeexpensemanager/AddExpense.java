@@ -31,7 +31,7 @@ public class AddExpense extends Activity implements View.OnClickListener{
 
     @Override
     public void onClick(View v) {
-        if(v.getId()==R.id.buttonSaveExp){
+        if(v.getId()==R.id.buttonSaveExp){ 
             //TODO: call database and save
             Toast.makeText(getApplicationContext(), "Saving Expn", Toast.LENGTH_SHORT).show();
             db= new DatabaseHelper(this);
