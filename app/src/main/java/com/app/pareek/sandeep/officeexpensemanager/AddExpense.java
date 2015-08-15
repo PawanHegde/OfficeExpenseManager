@@ -36,13 +36,14 @@ public class AddExpense extends Activity implements View.OnClickListener{
             Toast.makeText(getApplicationContext(), "Saving Expn", Toast.LENGTH_SHORT).show();
             db= new DatabaseHelper(this);
 
+            //just to test database connection
             Expense e = new Expense();
             e.setTransactionId(123456);
             e.setEmployeeId(19);
 
-            long trid = db.saveTransaction(e);
+            long transactionId = db.saveTransaction(e);
 
-            Toast.makeText(getApplicationContext(), "SAVED!!!! "+trid + "HH", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "SAVED!!!! "+transactionId + "HH", Toast.LENGTH_SHORT).show();
 
         }else if(v.getId()==R.id.buttonCanelExp){
             //TODO: cancel
