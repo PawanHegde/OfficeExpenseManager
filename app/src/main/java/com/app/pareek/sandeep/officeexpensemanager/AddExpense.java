@@ -44,7 +44,7 @@ public class AddExpense extends Activity implements View.OnClickListener{
             long transactionId = db.saveTransaction(e);
 
             Toast.makeText(getApplicationContext(), "SAVED!!!! "+transactionId + "HH", Toast.LENGTH_SHORT).show();
-
+            //
         }else if(v.getId()==R.id.buttonCanelExp){
             //TODO: cancel
             Toast.makeText(getApplicationContext(), "Cancel Exp", Toast.LENGTH_SHORT).show();
