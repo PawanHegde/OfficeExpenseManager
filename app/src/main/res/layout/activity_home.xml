@@ -9,7 +9,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Enter Expense"
+        android:text="@string/add_expense"
         android:id="@+id/buttonAddExp"
         android:layout_marginTop="125dp"
         android:layout_alignParentTop="true"
@@ -18,7 +18,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Generate Bill"
+        android:text="@string/gen_bill"
         android:id="@+id/buttonGenerateBill"
         android:layout_below="@+id/buttonAddExp"
         android:layout_alignLeft="@+id/buttonAddExp"
