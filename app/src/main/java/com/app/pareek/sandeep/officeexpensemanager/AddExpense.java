@@ -13,7 +13,7 @@ import com.app.pareek.sandeep.officeexpensemanager.Entity.Expense;
 import com.app.pareek.sandeep.officeexpensemanager.helper.DatabaseHelper;
 
 
-public class AddExpense extends Activity implements View.OnClickListener{ 
+public class AddExpense extends Activity implements View.OnClickListener{
 
     Button saveExpense,cancelExpense;
     DatabaseHelper db;
